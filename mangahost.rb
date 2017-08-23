@@ -1,5 +1,8 @@
 # encoding: utf-8
 
+# HOW TO USE: ruby mangahost.rb <PAGE_NUMBER_FROM_CENTRAL_DE_MANGAS>
+# HINT: Start multiple threads from terminal to make everything fast.
+
 require 'fileutils'
 require 'mechanize'
 
