@@ -10,6 +10,7 @@ MAIN_PREFIX = 'http://centraldemangas.net.br'
 MAIN_URL = 'http://centraldemangas.net.br/titulos/filtro/*/p/'
 OUTDIR = 'data/'
 PAGE = ARGV[0].to_i
+B = 5
 
 agent = Mechanize.new
 agent.user_agent_alias = 'Linux Firefox'
